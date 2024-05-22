@@ -47,7 +47,7 @@ function InputGroup7({
 }) {
   return (
     <div
-      className={`flex flex-row-reverse items-stretch w-full rounded-xl overflow-hidden bg-white shadow-[0_4px_10px_rgba(0,0,0,0.03)] ${className}`}
+      className={`flex flex-row-reverse items-stretch w-auto rounded-xl overflow-hidden bg-white shadow-[0_4px_10px_rgba(0,0,0,0.03)] ${className}`}
     >
       <input
         id={name}
@@ -57,7 +57,7 @@ function InputGroup7({
         placeholder={label}
         aria-label={label}
         onChange={onChange} 
-        className={`peer block w-full p-3 text-gray-600 focus:outline-none focus:ring-0 appearance-none ${disabled ? "bg-gray-200" : ""
+        className={`peer block w-auto p-1 text-gray-600 focus:outline-none focus:ring-0 appearance-none ${disabled ? "bg-gray-200" : ""
           } ${inputClassName}`}
         disabled={disabled}
       />

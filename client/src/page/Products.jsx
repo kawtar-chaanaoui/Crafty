@@ -33,9 +33,9 @@ export default function Products() {
   console.log("Products:", products); // Log the response here
 
   return (
-    <div className="flex flex-col overflow-auto py-4 sm:py-0">
+    <div className="flex flex-col overflow-auto py-4 sm:py-0 pl-5">
       <Link to="/new-product">
-      <button className="btn btn-sm">Create Product</button>
+      <button className="btn btn-sm ">+Add Product</button>
       </Link>      
         <Table1 data={products} handleActionsProductClick={handleDeleteProduct} columns={pcolumns} />
     </div>

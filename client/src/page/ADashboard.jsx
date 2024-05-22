@@ -9,7 +9,7 @@ function ADashboard() {
   return (
     <div className=''>
         <Sidebar/>
-        <div className=' w-screen pl-[4.25rem]'>
+        <div className='  pl-[9.50rem]'>
         <Nav/>
         
         <Products/>
